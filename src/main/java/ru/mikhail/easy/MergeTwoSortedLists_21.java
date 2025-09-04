@@ -37,7 +37,7 @@ public class MergeTwoSortedLists_21 {
         return result;
     }
 
-    static class ListNode {
+    private static class ListNode {
         int val;
         ListNode next;
         ListNode() {}

@@ -71,7 +71,7 @@ public class AddTwoNumbers_2 {
         return result;
     }
 
-    public static class ListNode {
+    private static class ListNode {
         int val;
         ListNode next;
         ListNode() {}
