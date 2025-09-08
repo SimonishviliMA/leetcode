@@ -12,7 +12,7 @@ public class SqrtX_69 {
         closest = 1;
         long r = x;
         long l = 0L;
-        while (closest > 0) {
+        while (true) {
             current = (l + r) / 2;
             long sqr = current * current;
             if (sqr == x) {
@@ -26,6 +26,5 @@ public class SqrtX_69 {
                 r = current;
             }
         }
-        return (int) closest;
     }
 }
