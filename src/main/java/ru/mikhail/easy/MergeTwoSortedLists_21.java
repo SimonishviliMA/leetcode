@@ -1,5 +1,7 @@
 package ru.mikhail.easy;
 
+import ru.mikhail.utils.ListNode;
+
 public class MergeTwoSortedLists_21 {
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1, new ListNode(2, new ListNode(4)));
@@ -37,16 +39,4 @@ public class MergeTwoSortedLists_21 {
         return result;
     }
 
-    private static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-
-        @Override
-        public String toString() {
-            return "ListNode: (val: " + val + ", next: " + next + ")";
-        }
-    }
 }

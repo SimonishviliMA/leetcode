@@ -1,5 +1,7 @@
 package ru.mikhail.medium;
 
+import ru.mikhail.utils.ListNode;
+
 public class AddTwoNumbers_2 {
 
     public static void main(String[] args) {
@@ -69,18 +71,5 @@ public class AddTwoNumbers_2 {
         }
 
         return result;
-    }
-
-    private static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-
-        @Override
-        public String toString() {
-            return val + "" + next;
-        }
     }
 }

@@ -1,5 +1,7 @@
 package ru.mikhail.medium;
 
+import ru.mikhail.utils.ListNode;
+
 /**
  * We have opportunity to work with loops such as "for" and/or "while", but I wanted to use a recursive method instead.
  * I think that could be more interesting and easier to understand.
@@ -34,18 +36,6 @@ public class RemoveNthNodeFromEndOfList_19 {
         }
     }
 
-    private static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-
-        @Override
-        public String toString() {
-            return val + "," + next;
-        }
-    }
 
     private static class Pair<T,K> {
         private final T val1;
