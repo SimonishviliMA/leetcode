@@ -9,7 +9,7 @@ public class BinaryTreeInorderTraversal_94 {
 
     public static void main(String[] args) {
         System.out.println(
-                inorderTraversal(new TreeNode(1, null, new TreeNode(2,new TreeNode(3, null, null), null)))
+                inorderTraversal(new TreeNode(1, null, new TreeNode(2,new TreeNode(3), null)))
         );
     }
 
