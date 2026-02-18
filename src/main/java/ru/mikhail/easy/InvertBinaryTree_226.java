@@ -1,4 +1,4 @@
-package ru.mikhail.medium;
+package ru.mikhail.easy;
 
 import ru.mikhail.utils.TreeNode;
 
