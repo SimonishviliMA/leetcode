@@ -4,12 +4,12 @@ import ru.mikhail.utils.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 public class PalindromeLinkedList_234 {
 
     public static void main(String[] args) {
         System.out.println(isPalindromeSlowFast(ListNode.arrayToListNode(new int[] {1,1,0,1,1})));
+        System.out.println(isPalindrome(ListNode.arrayToListNode(new int[] {1,1,0,1,1})));
     }
 
     private static boolean isPalindrome(ListNode head) {
