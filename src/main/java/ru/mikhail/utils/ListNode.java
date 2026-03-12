@@ -13,4 +13,12 @@ public class ListNode {
     public String toString() {
         return val + "" + next;
     }
+
+    public static ListNode arrayToListNode(int[] vals) {
+        return new ListNode(vals[0], vals.length > 1 ? recursiveListNode(vals, 1) : null);
+    }
+
+    private static ListNode recursiveListNode(int[] vals, int i) {
+        return new ListNode(vals[i], i < vals.length - 1 ? recursiveListNode(vals, ++i) : null);
+    }
 }
