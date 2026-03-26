@@ -1,15 +1,14 @@
 package ru.mikhail.easy;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class IntersectionOfTwoArraysII_350 {
 
     public static void main(String[] args) {
-        intersect(new int[] {4,9,5}, new int[] {9,4,9,8,4});
+        System.out.println(Arrays.toString(
+                intersect(new int[] {4,9,5}, new int[] {9,4,9,8,4})
+        ));
     }
 
     private static int[] intersect(int[] nums1, int[] nums2) {
